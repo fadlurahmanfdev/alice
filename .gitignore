@@ -149,3 +149,5 @@ ios/fastlane/report.xml
 
 # generated files
 *.g.dart
+
+.fvm
