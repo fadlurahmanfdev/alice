@@ -51,7 +51,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     ButtonStyle _buttonStyle = ButtonStyle(
-        backgroundColor: WidgetStateProperty.all<Color>(_buttonColor));
+        backgroundColor: MaterialStateProperty.all<Color>(_buttonColor));
     return MaterialApp(
       theme: ThemeData(
         primaryColor: _primaryColor,
